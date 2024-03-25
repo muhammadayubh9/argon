@@ -1,0 +1,27 @@
+.loginfoot{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    height: 138px;
+    .made{
+        margin-left: -150px;
+        span{
+            color: #3182CE;
+        }
+    }
+    .tim{
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 12px;
+        color: #A0AEC0;
+        margin-top: -25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 600px;
+        gap: 44px;
+    }
+}

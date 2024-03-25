@@ -1,0 +1,111 @@
+.table{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    .top_table_hover{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        overflow-y: scroll;
+        padding: 20px;
+        p{
+            color: #A0AEC0;
+            span{
+                font-weight: 700;
+                font-size: 14px;
+            }
+            i{
+                background-color: #48BB78;
+                border-radius: 50%;
+                color: white;
+            }
+        }
+        .top_table{
+            display: flex;
+            flex-direction: column;
+
+            .row{
+                padding: 10px 0;
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr 0.3fr;
+                p{
+                    font-size: 10px;
+                    color: #A0AEC0;
+                    font-weight: 700;
+                }
+                .user_datas{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img{
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+                    .datas{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        justify-content: center;
+                    }
+                    h4{
+                        color: #2D3748;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    h5{
+                        color: #718096;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+                .isOnline_hover{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        background-color: #48BB78;
+                        color: white;
+                        border-radius: 6px;
+                        padding: 5px 10px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    button{
+                        color: #718096;
+                        font-size: 12px;
+                        font-weight: 700;
+                        background-color: transparent;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+                .complation{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    p{
+                        color: #3182CE;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    span{
+                        width: 70%;
+                        height: 3px;
+                        background-color: #E2E8F0;
+                        div{
+                            width: 60%;
+                            height: 3px;
+                            background-color: #3182CE;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
